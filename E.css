@@ -1,0 +1,94 @@
+*{
+    font: 1em sans-serif;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.h-w{
+    color: rgb(0, 255, 255);
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;margin: 23px 23px;
+}
+.bx{
+    color: rgb(255, 0, 0);
+}
+.bx-2{
+    color: rgb(17, 0, 255);
+}
+.bx-3{
+    color: rgb(221, 255, 0);
+}
+
+.contanair{
+    border-radius: 23px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background: url(background.jpg);
+}
+.expirences-HTML{
+    display: block;
+    padding: 23px;
+}
+.expirences-css{
+    display: block;
+    padding: 23px;
+}
+.expirences-js{
+    display: block;
+    padding: 23px;
+}
+.hiding{
+    font-size: 2rem;
+    margin-left: 43px;
+    padding: 12px;
+    color: rgb(255, 0, 0);
+}
+.box-long{
+    margin-left: 20px;
+    border-radius: 30px;
+    background-color: red;
+    height: 12px;
+    width: 75%;
+}
+.para{
+    font-size: 1.5rem;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px;
+    color: rgb(255, 255, 255);
+}
+.hiding-css{
+    background-color: aliceblue;
+    font-size: 2rem;
+    padding: 23px;
+    color: rgb(0, 0, 255);
+    margin-left: 43px;
+    padding: 12px;
+}
+.hiding-js{
+    font-size: 2rem;
+    padding: 23px;
+    margin-left: 43px;
+    padding: 12px;
+    color: yellow;
+}
+.box-long-css{
+    background-color: blue;
+    height: 10px;
+    border-radius: 20px;
+    width: 55%;
+    margin: 0px 24px;
+}
+.box-long-js{
+    margin-left: 24px;
+    background-color: rgb(255, 251, 0);
+    height: 10px;
+    border-radius: 20px;
+    width: 45%;
+}
