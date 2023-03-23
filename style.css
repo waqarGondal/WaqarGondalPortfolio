@@ -181,6 +181,110 @@ img {
     color: white;
 }
 
+/* Sction Cricle */
+ .cricle-section{
+        background-color: #f5f8f9;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .container1{
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        width: 100%;
+    }
+    .container1 .content{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        /* background-color: rgb(0, 255, 30); */
+        border-radius: 50%;
+        /* border: 2px solid gold; */
+        height: 330px;
+        width: 330px;
+        animation: slideLeft 1s ease forwards, professionRotate 13s ease-out infinite;
+        animation-delay: 2.5s, 3.5s;
+    }
+    .container1 .content .item{
+        font-size: 13px;
+        font-weight: 400;
+        margin-right:30px;
+        left: 0;
+        display: flex;
+        position: absolute;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        transform-origin: 180px;
+        transform: rotate(calc(360deg / 4 * var(--i)));
+        
+    }
+    .container1 .content .cricle{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 253px;
+        width: 253px;
+        border-radius: 50%;
+        border: 2px solid rgb(0, 142, 190);
+    
+        /* top: 0;
+        bottom: 0; */
+    }
+    .container1 .content .item h3{
+        height: 6vh;
+        
+        padding-bottom: 7px;
+        background-color: rgb(255, 255, 255);
+        color: var(---main-collor);
+        transform: rotate(-90deg);
+
+        font-size: 16px;
+        font-weight: 600;
+    }
+    @keyframes professionRotate{
+        0%, 10%{
+          transform: rotate(0deg);
+        }
+        20%, 25%{
+          transform: rotate(-45deg);
+        }
+        45%, 50%{
+          transform: rotate(-90deg);
+        }
+        70%, 75%{
+          transform: rotate(-180deg);
+        }
+        90%, 100%{
+          transform: rotate(-360deg);
+        }
+      }
+    
+      .container1 .overlay{
+        /* display: flex;
+        position: absolute;
+        align-items: center;
+        height:312px;
+        width: 50vh; */
+        position: absolute;
+        /* top: 0; */
+        /* right: 0; */
+        width: 0;
+        height: 0;
+        /* opacity: 0; */
+        border-top: 190px solid transparent;
+        border-right: 190px solid var(---main-collor);
+        border-bottom: 190px solid var(---main-collor);
+        border-left: 190px solid var(---main-collor);
+        animation: slideLeft 1s ease-in-out;
+        animation-delay: 1.5s;
+      }
+
+
 /* sections project */
 
 .section-1 {
