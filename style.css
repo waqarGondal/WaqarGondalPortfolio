@@ -183,6 +183,7 @@ img {
 
 /* Sction Cricle */
  .cricle-section{
+        display: none;
         background-color: #f5f8f9;
         display: flex;
         align-items: center;
@@ -434,5 +435,11 @@ img {
     .nav-manu.active {
         left: 0;
     }
+    
+    .cricle-section{
+                 display: flex;
+
+    }
+
 
 }
