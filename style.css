@@ -280,10 +280,10 @@ img {
         width: 0;
         height: 0;
         /* opacity: 0; */
-        border-top: 320px solid transparent;
-        border-right:320px solid var(---main-collor);
-        border-bottom: 320px solid var(---main-collor);
-        border-left: 320px solid var(---main-collor);
+        border-top: 180px solid transparent;
+        border-right:180px solid var(---main-collor);
+        border-bottom: 180px solid var(---main-collor);
+        border-left: 180px solid var(---main-collor);
         animation: slideLeft 1s ease-in-out;
         animation-delay: 1.5s;
       }
