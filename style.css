@@ -33,7 +33,7 @@ li {
 }
 
 a {
-    fount-size:30px;
+/*     fount-size:30px; */
     font: 1em sans-serif;
     color: rgb(255, 255, 255);
     text-decoration: none;
@@ -106,7 +106,7 @@ img {
     display: flex;
 }
 
-.about {
+.about` {
     display: block;
     align-items: center;
     justify-content: center;
@@ -114,7 +114,7 @@ img {
 
 .hiding-1 {
     font-size: 1.3rem;
-    font: 1.3em sans-serif;
+/*     font: 1.3em sans-serif; */
     color: rgb(255, 255, 255);
 }
 
