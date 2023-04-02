@@ -4,6 +4,7 @@
     box-sizing: border-box;
     font: 1em sans-serif;
     background-size: cover;
+    overflow:hidden;
 }
 
 :root {
