@@ -24,7 +24,7 @@ header {
     background: url(background.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    hight:100vh;
+/*     hight:100vh; */
 }
 
 li {
