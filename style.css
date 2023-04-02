@@ -24,7 +24,6 @@ header {
     background: url(background.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-      overflow:hidden;
     hight:100vh;
 }
 
