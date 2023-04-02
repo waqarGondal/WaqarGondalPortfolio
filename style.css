@@ -4,7 +4,6 @@
     box-sizing: border-box;
     font: 1em sans-serif;
     background-size: cover;
-    overflow:hidden;
 }
 
 :root {
@@ -25,8 +24,8 @@ header {
     background: url(background.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-
-    /* hight:78vh; */
+      overflow:hidden;
+    hight:100vh;
 }
 
 li {
