@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font: 1.2em sans-serif;
+    font: 1em sans-serif;
 }
 .about{
     display: flex;
